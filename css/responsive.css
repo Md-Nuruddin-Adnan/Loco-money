@@ -1,0 +1,122 @@
+/* Extra small devices (portrait phones, less than 320px) */
+@media(max-width: 320px) {
+    #loco2 {
+        margin-top: -150px;
+    }
+
+    
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575px) {
+    .loco-train img {
+        top: -260px;
+    }
+
+    #loco2 {
+        height: 250px;
+    }
+
+    .img-grid-1 {
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 60px 0;
+    }
+
+    .bg-banner .g-img img {
+        padding-right: 95px
+      }
+      
+  
+}
+
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 768px) {
+    #img-grid {
+        height: auto;
+        background: #1C8E8F;
+    }
+    #img-grid .s-para {
+        color: #D2CE98;
+    }
+
+    #loco2 .container {
+        max-width: 100%;
+    }
+
+    
+.available {
+    background:  #374040 url(../images/screen01.jpg) no-repeat center center/cover;
+  }
+  
+
+   
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .loco-train img {
+        top: -270px !important;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+    .loco-train img {
+        top: -278px;
+    }
+    #img-grid {
+        height: 715px;
+    }
+
+    /* .Available-soon p {
+        margin-top: 150px;
+    } */
+
+    .available {
+       background-position: 50% 100% !important;
+    }
+ }
+/* Medium devices (tablets, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .loco-train img {
+        top: -300px !important;
+    }
+
+    #img-grid {
+    height: 795px;
+    }
+ }
+
+/* Large devices (desktops and laptop) */
+@media (max-width: 1199px) {
+  
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #img-grid .s-para {
+        max-width: 75%;
+        margin: auto;
+      }
+ }
+
+ /* For Train large device(large desktops, 1200px and up */
+ @media(min-width: 1200px) and (max-width: 1599px) {
+    .loco-train img {
+        top: -310px;
+    }
+ }
+
+
+
+
+ /* Large devices (desktops and laptop) */
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+      }
+ }
