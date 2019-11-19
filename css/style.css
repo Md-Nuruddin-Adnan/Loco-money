@@ -2,17 +2,25 @@
  /* @import url('https://fonts.googleapis.com/css?family=Acme&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Dosis:400,600,700&display=swap');
 @font-face {
-  font-family: NeoTech;
-  src: url(../fonts/NeoTech_Medium_Italic.otf);
+  font-family: neotech;
+  src: url(../fonts/NeoTech.otf);
 }
 
 @font-face {
-  font-family: neotech;
-  src: url(../fonts/NeoTechStd-LightItalic.otf)
+  font-family: neotech-light;
+  src: url(../fonts/NeoTech\ Light.otf)
+}
+@font-face {
+  font-family: neotech-mideum;
+  src: url(../fonts/NeoTech\ Medium.otf)
+}
+@font-face {
+  font-family: HoratioDOT;
+  src: url(../fonts/HoratioDOT-Medium.otf)
 }
 :root {
   --brand-color: #B21110;
-}
+} 
 
 html {
   scroll-behavior: smooth;
@@ -50,10 +58,10 @@ button,button:active {
 
 body {
   background: #f9f9f9;
-  font-family: neotech;
+  font-family: neotech,'Dosis',sans-serif;
   line-height: 1.2;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.5pt;
   color: #4F0000;
 
@@ -144,6 +152,7 @@ h3{
 }
 
 .b-text {
+  font-family: 'neotech-mideum','Dosis',sans-serif;
   font-size: 35px;
   text-transform: uppercase;
   font-weight: 700;
@@ -177,27 +186,23 @@ h3{
   font-size: 20px;
   padding-bottom: 120px;
   color: #4f0000;
-  font-weight: 400;
-  font-weight: 400;
-  line-height: 1.2;
-  font-family: NeoTech, 'Dosis',sans-serif;
+  line-height: 1.4;
+  letter-spacing: .8px;
+  font-family: 'neotech-light', 'Dosis',sans-serif;
+  font-style: italic;
+
 }
 .loco-text span {
+  font-family: 'neotech-mideum', 'Dosis',sans-serif;
   font-size: 30px;
-  font-weight: bolder;
+  font-weight: bold;
   color: #4f0000;
   letter-spacing: -0.6px;
   line-height: 1.2;
   font-weight: normal;
-  font-family: NeoTech, 'Dosis',sans-serif;
 }
 
-.loco-train img {
-  max-width: 100%;
-  position: relative;
-  top: -340px;
-  left: 0;
-}
+
 .text {
   font-size: 20px;
   font-weight: 400;
@@ -226,9 +231,18 @@ h3{
 #loco2 {
   background: url(../images/blueBackTile.png) repeat-x;
   background-color: #189696;
-  padding: 220px 0 200px 0;
+  padding: 150px 0;
   margin-top: -150px;
   z-index: 3;
+}
+
+.loco-train img {
+  max-width: 100%;
+  position: relative;
+  /* top: -318px; */
+  top: calc(-176px + (-318 - -176) * ((100vw - 320px) / (1920 - 320)));
+  left: 0;
+  /* font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); */
 }
 
 .loco2-text {
@@ -282,10 +296,9 @@ h3{
 
 .Available-soon p  {
   font-size: 66px;
-  /* margin-top: 400px; */
   font-weight: 700;
   color: rgba(217, 145, 130, 0.9);
-  font-family: NeoTech;
+  font-family: 'neotech-mideum', 'Dosis',sans-serif;
   font-weight: 500;
   letter-spacing: -2px;
   text-shadow: 1px 5px rgba(0,0,0,.25);

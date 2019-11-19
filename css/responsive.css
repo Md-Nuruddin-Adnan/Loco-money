@@ -1,7 +1,7 @@
 /* Extra small devices (portrait phones, less than 320px) */
 @media(max-width: 320px) {
     #loco2 {
-        margin-top: -150px;
+        /* margin-top: -150px; */
     }
 
     
@@ -11,22 +11,26 @@
 
 @media (max-width: 575px) {
     .loco-train img {
-        top: -260px;
+        /* top: -260px; */
     }
 
     #loco2 {
-        height: 250px;
+        /* height: 250px; */
     }
 
     .img-grid-1 {
         position: relative;
         left: 0;
-        top: 0;
+        /* top: 0; */
         padding: 60px 0;
     }
 
     .bg-banner .g-img img {
         padding-right: 95px
+      }
+
+      .Available-soon p {
+          font-size: 58px;
       }
       
   
@@ -58,7 +62,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
     .loco-train img {
-        top: -270px !important;
+        /* top: -270px; */
     }
  }
 
@@ -66,7 +70,7 @@
 @media (min-width: 768px) and (max-width: 991px) { 
 
     .loco-train img {
-        top: -278px;
+        /* top: -278px; */
     }
     #img-grid {
         height: 715px;
@@ -83,7 +87,7 @@
 /* Medium devices (tablets, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) { 
     .loco-train img {
-        top: -300px !important;
+        /* top: -300px ; */
     }
 
     #img-grid {
@@ -107,7 +111,7 @@
  /* For Train large device(large desktops, 1200px and up */
  @media(min-width: 1200px) and (max-width: 1599px) {
     .loco-train img {
-        top: -310px;
+        /* top: -310px; */
     }
  }
 
