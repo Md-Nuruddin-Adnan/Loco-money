@@ -20,9 +20,9 @@
 
   $(function(){
     //Parallax
-    $('.bg-banner').parallax('100%', 0.2);
+    $('.bg-banner').parallax('50%', 0.3);
   
-    $('.available').parallax('100%', .3);
+    $('.available').parallax('50%', .3);
   
   
   //back to top button
