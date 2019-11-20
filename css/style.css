@@ -440,6 +440,7 @@ ul li a.active {
   text-align: center;
   padding-top: 10px;
   z-index: 10;
+  opacity: 0.8;
 }
 
 .btn:focus {
